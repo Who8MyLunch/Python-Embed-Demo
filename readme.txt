@@ -1,4 +1,7 @@
 
+Hey, here is a crazy idea: lets have the unicorns do all the work!
+
+
 This project is a demonstration of embedding a Python module within a C/C++ application.  Numpy is
 used to help work with numeric data.  Cython is used as glue.  This project has been developed
 with the following:
