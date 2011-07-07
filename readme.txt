@@ -1,5 +1,6 @@
 
 Hey, here is a crazy idea: lets have the unicorns do all the work!
+Whoa!  another idea!
 
 
 This project is a demonstration of embedding a Python module within a C/C++ application.  Numpy is
