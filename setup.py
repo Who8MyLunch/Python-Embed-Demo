@@ -27,6 +27,7 @@ date_stamp = '%4i.%02i.%02i' % (localtime.tm_year, localtime.tm_mon, localtime.t
 
 # Do it.
 setup(name='wrapper_inner',
+      packages=find_packages(),
       cmdclass={'build_ext':build_ext},
       ext_modules=[ ext ],
 

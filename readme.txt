@@ -13,6 +13,11 @@ Numpy-1.6.0 (MKL), http://www.lfd.uci.edu/~gohlke/pythonlibs/
 
 
 
+#### NOTE
+I started to separate files Python vs. C/C++
+This may not be fully functional at this point....
+
+
 =====================
 Files in this project
 =====================
