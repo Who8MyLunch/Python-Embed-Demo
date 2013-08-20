@@ -2,14 +2,11 @@
 Hey, here is a crazy idea: lets have the unicorns do all the work!
 Whoa!  another idea!
 
-
 This project is a demonstration of embedding a Python module within a C/C++ application.  Numpy is used to help work with numeric data.  Cython is used as glue.  This project has been developed with the following:
 
 Python-2.7.2, http://python.org/download/releases/2.7.2/
 Cython-0.14.1, http://www.lfd.uci.edu/~gohlke/pythonlibs/
 Numpy-1.6.0 (MKL), http://www.lfd.uci.edu/~gohlke/pythonlibs/
-
-
 
 #### NOTE
 I started to separate files Python vs. C/C++
@@ -94,26 +91,20 @@ Project Workflow
 References, in Order of potential usefulness
 ============================================
 
-http://docs.cython.org/src/userguide/external_C_code.html#using-cython-declarations-from-c
-Quote: "Using the api method does not require the C code using the declarations to be linked with
-        the extension module in any way, as the Python import machinery is used to make the
-        connection dynamically"
+Quote from [here](http://docs.cython.org/src/userguide/external_C_code.html#using-cython-declarations-from-c): "Using the api method does not require the C code using the declarations to be linked with the extension module in any way, as the Python import machinery is used to make the connection dynamically"
 
-
+More helpful link:
 http://docs.scipy.org/doc/numpy/reference/c-api.html
-
-    http://docs.scipy.org/doc/numpy/reference/c-api.array.html#array-structure-and-data-access
-    http://docs.scipy.org/doc/numpy/reference/c-api.array.html#data-access
-    http://docs.scipy.org/doc/numpy/reference/c-api.array.html#from-scratch
-    http://docs.scipy.org/doc/numpy/reference/c-api.array.html#from-other-objects
-    http://docs.scipy.org/doc/numpy/reference/c-api.array.html#general-check-of-python-type
-    http://docs.scipy.org/doc/numpy/reference/c-api.array.html#data-type-checking
-    http://docs.scipy.org/doc/numpy/reference/c-api.array.html#converting-data-types
-    http://docs.scipy.org/doc/numpy/reference/c-api.array.html#special-functions-for-pyarray-object
-    http://docs.scipy.org/doc/numpy/reference/c-api.array.html#conversion
-    http://docs.scipy.org/doc/numpy/reference/c-api.array.html#shape-manipulation
-
-
+http://docs.scipy.org/doc/numpy/reference/c-api.array.html#array-structure-and-data-access
+http://docs.scipy.org/doc/numpy/reference/c-api.array.html#data-access
+http://docs.scipy.org/doc/numpy/reference/c-api.array.html#from-scratch
+http://docs.scipy.org/doc/numpy/reference/c-api.array.html#from-other-objects
+http://docs.scipy.org/doc/numpy/reference/c-api.array.html#general-check-of-python-type
+http://docs.scipy.org/doc/numpy/reference/c-api.array.html#data-type-checking
+http://docs.scipy.org/doc/numpy/reference/c-api.array.html#converting-data-types
+http://docs.scipy.org/doc/numpy/reference/c-api.array.html#special-functions-for-pyarray-object
+http://docs.scipy.org/doc/numpy/reference/c-api.array.html#conversion
+http://docs.scipy.org/doc/numpy/reference/c-api.array.html#shape-manipulation
 
 
 http://www.freenet.org.nz/python/embeddingpyrex/
@@ -125,7 +116,6 @@ https://groups.google.com/forum/#!topic/cython-users/G81k2dlZXhM
 http://permalink.gmane.org/gmane.comp.python.cython.user/2526
 
 https://groups.google.com/forum/#!topic/cython-users/hJr-kfKFVNc
-
 
 http://stackoverflow.com/questions/551227/deploying-application-with-python-or-another-embedded-scripting-language
 
