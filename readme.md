@@ -36,16 +36,17 @@ This file contains a simple C++ function that will serve as the primary interfac
 This is an example a C++ user application calling the embedded Python to get some useful work done.  This file must include the above file wrapper_outer.hpp.
 
 
-5. - setup.py
+5. setup.py
 This is the usual Python setup.py file.  It is used here solely to build the Python extension for wrapper_inner.pyx.  Run this as: "python setup.py build_ext --inplace".  The --inplace parameter simply forces the resulting .pyd file to be placed in the current folder.  Running setup.py takes care of two things:
-    a) Call "Cythonize" the wrapper_inner.pyx file into a wrapper_inner.cpp file.
-    b) Compile the resulting wrapper_inner.cpp file into a wrapper_inner.pyd extension
-       module (really just a DLL).
 
-6. - setup.cfg
+    a) Call "Cythonize" the wrapper_inner.pyx file into a wrapper_inner.cpp file.
+    b) Compile the resulting wrapper_inner.cpp file into a wrapper_inner.pyd extension module (really just a DLL).
+
+6. setup.cfg
 This file is optional and simply enables replacing the above setup command with "python setup.py build".  It contains at least the two following lines:
-    [build_ext]
-    inplace=1
+
+        [build_ext]
+        inplace=1
 
 
 7. CMakeList.txt
